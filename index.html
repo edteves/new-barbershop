@@ -4,50 +4,69 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Barbershop</title>
+
+		<!-- fonts -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
 		<!-- header -->
-		<header>
-			<a href="./index.html" rel="noopener no referrer"
-				><img src="./images/logo.png" alt="logo"
-			/></a>
-
+		<header class="header">
 			<!-- navbar -->
-			<nav>
-				<ul>
-					<li>
-						<a href="" rel="noopener noreferrer">Services and Prices</a>
+			<nav class="header-navigation">
+				<a class="header-logo" href="./index.html" rel="noopener no referrer"
+					><img src="./images/logo.png" alt="logo"
+				/></a>
+				<ul class="header-list list">
+					<li class="header-item">
+						<a class="header-link link" href="" rel="noopener noreferrer"
+							>Services and Prices</a
+						>
 					</li>
 
-					<li>
-						<a href="" rel="noopener noreferrer">Barbers</a>
+					<li class="header-item">
+						<a class="header-link link" href="" rel="noopener noreferrer"
+							>Barbers</a
+						>
 					</li>
-					<li>
-						<a href="" rel="noopener noreferrer">Contacts</a>
+					<li class="header-item">
+						<a class="header-link link" href="" rel="noopener noreferrer"
+							>Contacts</a
+						>
 					</li>
 				</ul>
 			</nav>
 			<!-- end of navbar -->
+			<address class="address">
+				<a class="header-address-link" href="tel:+380441111111"
+					>+380441111111</a
+				>
+			</address>
 
-			<a href="tel:+380441111111">+380441111111</a>
-			<button>Book A Service</button>
+			<button class="header-button button">Book A Service</button>
 		</header>
 		<!-- end of header -->
 
 		<main>
 			<!-- hero section -->
-			<section>
-				<ul>
-					<li>
+			<section class="hero">
+				<ul class="hero-list list">
+					<li class="hero-item">
 						<a
+							class="hero-link"
 							href="https://instagram.com"
 							target="_blank"
 							rel="noopener noreferrer"
 							>Instagram</a
 						>
 					</li>
-					<li>
+					<li class="hero-item">
 						<a
+							class="hero-link"
 							href="https://youtube.com"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -56,9 +75,9 @@
 					</li>
 				</ul>
 
-				<p>A hair salon for men in Kyiv</p>
-				<h1>Barbershop</h1>
-				<p>
+				<p class="hero-top-text top-text">A hair salon for men in Kyiv</p>
+				<h1 class="hero-title">Barbershop</h1>
+				<p class="hero-bottom-text bottom-text">
 					We are experts in trendy men's haircuts.<br />
 					We work quickly, carefully, and tastefully
 				</p>
@@ -66,9 +85,9 @@
 			<!-- end of hero section -->
 
 			<!-- about section -->
-			<section>
-				<ul>
-					<li>
+			<section class="about">
+				<ul class="about-list list">
+					<li class="about-item">
 						<img
 							src="./images/about-pic1.jpg"
 							alt="about image 1"
@@ -76,7 +95,7 @@
 							height="445"
 						/>
 					</li>
-					<li>
+					<li class="about-item">
 						<img
 							src="./images/about-pic2.jpg"
 							alt="about image 2"
@@ -85,16 +104,17 @@
 						/>
 					</li>
 				</ul>
-				<h2>
+				<p class="about-top-text top-text">About</p>
+				<h2 class="about-title section-title">
 					The Best Barbershop<br />
 					in Your City
 				</h2>
-				<p>
+				<p class="about-bottom-text bottom-text">
 					If you want to add more confidence to your image,<br />
 					you are definitely in the right place.
 				</p>
 
-				<p>
+				<p class="about-text">
 					We are a team that never rests on its laurels and yearns for
 					change.<br />
 					And once you fall into the hands of our master, you will never be the
@@ -103,79 +123,87 @@
 					clients.<br />
 					Therefore, we are always ready to improve who comes to us!
 				</p>
-				<button type="button">Book a Service</button>
+				<button class="about-button button" type="button">
+					Book a Service
+				</button>
 			</section>
 
 			<!-- Services and Prices -->
-			<section>
-				<p>Spend time in the company of the best crafrsmen</p>
-				<h2>Services and Prices</h2>
+			<section class="prices">
+				<p class="prices-top-text top-text">
+					Spend time in the company of the best crafrsmen
+				</p>
+				<h2 class="prices-title section-title">Services and Prices</h2>
 
-				<ul>
-					<li>
-						<p>Men's Haircut</p>
+				<ul class="prices-list list">
+					<li class="prices-item">
+						<p class="item-prices-text">Men's Haircut</p>
 						<p>from 300 UAH</p>
 					</li>
-					<li>
-						<p>Beard Trim</p>
+					<li class="prices-item">
+						<p class="item-prices-text">Beard Trim</p>
 						<p>from 200 UAH</p>
 					</li>
-					<li>
-						<p>Mustache Trim</p>
+					<li class="prices-item">
+						<p class="item-prices-text">Mustache Trim</p>
 						<p>from 200 UAH</p>
 					</li>
-					<li>
-						<p>Straight Razor Shave</p>
+					<li class="prices-item">
+						<p class="item-prices-text">Straight Razor Shave</p>
 						<p>from 200 UAH</p>
 					</li>
 				</ul>
-				<ul>
-					<li>
-						<p>Trainee Haircut</p>
+				<ul class="prices-list list">
+					<li class="prices-item">
+						<p class="prices-item-text">Trainee Haircut</p>
 						<p>from 50 UAH</p>
 					</li>
-					<li>
-						<p>Buzz Cut</p>
+					<li class="prices-item">
+						<p class="prices-item-text">Buzz Cut</p>
 						<p>from 200 UAH</p>
 					</li>
-					<li>
-						<p>Kids Haircut &lt;12 y.o</p>
+					<li class="prices-item">
+						<p class="prices-item-text">Kids Haircut &lt;12 y.o</p>
 						<p>from 300 UAH</p>
 					</li>
 					<li>
-						<p>Grey Coverage</p>
+						<p class="prices-item-text">Grey Coverage</p>
 						<p>from 200 UAH</p>
 					</li>
 				</ul>
 
-				<button type="button">Book A Service</button>
+				<button class="prices-button button" type="button">
+					Book A Service
+				</button>
 			</section>
 
 			<!-- Why us section -->
-			<ul>
-				<li>
-					<span>600</span><sup>+</sup>
-					<p>Satisfied Customers per Day</p>
-				</li>
-				<li>
-					<span>50</span><sup>+</sup>
-					<p>Excellent Service Awards</p>
-				</li>
-				<li>
-					<span>20</span><sup>+</sup>
-					<p>The Best Barbers <br />of Kyiv</p>
-				</li>
-				<li>
-					<span>100</span><sup>+</sup>
-					<p>Gifts for Regular Customers</p>
-				</li>
-			</ul>
-			<p>Old School</p>
-			<h2>Why do they come to us?</h2>
-			<p>
-				Only good things are said about us. But ist is better<br />
-				to see and feel 1 time than to read 10 times
-			</p>
+			<section>
+				<ul class="benefits-section">
+					<li>
+						<span>600</span><sup>+</sup>
+						<p>Satisfied Customers per Day</p>
+					</li>
+					<li>
+						<span>50</span><sup>+</sup>
+						<p>Excellent Service Awards</p>
+					</li>
+					<li>
+						<span>20</span><sup>+</sup>
+						<p>The Best Barbers <br />of Kyiv</p>
+					</li>
+					<li>
+						<span>100</span><sup>+</sup>
+						<p>Gifts for Regular Customers</p>
+					</li>
+				</ul>
+				<p>Old School</p>
+				<h2>Why do they come to us?</h2>
+				<p>
+					Only good things are said about us. But ist is better<br />
+					to see and feel 1 time than to read 10 times
+				</p>
+			</section>
 
 			<!-- Barbers section -->
 			<p>for true connoisseurs of the atmosphere</p>
