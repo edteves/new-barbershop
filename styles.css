@@ -246,8 +246,140 @@ body {
 
 .benefits-item-text {
 	color: var(--primary-black-color);
+	text-align: center;
 	font-size: 11px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: normal;
+}
+
+.benefit-top-text {
+	color: var(--primary-black-color);
+}
+
+.benefeits-title {
+	color: var(--primary-black-color);
+}
+
+.benefits-bottom-text {
+	color: var(--primary-text-color);
+}
+
+/* barbers section */
+.barbers {
+	background-color: var(--secondary-background-color);
+}
+
+.barber-top-text {
+	color: var(--primary-black-color);
+}
+
+.barbers-title {
+	color: var(--primary-black-color);
+}
+
+.barbers-list {
+}
+
+.barbers-item-text {
+	text-align: center;
+	color: var(--primary-black-color);
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.36px;
+}
+
+.barbers-item-text {
+	color: var(--primary-orange-color);
+	text-align: center;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.28px;
+}
+
+/* portfolio section */
+.portfolio {
+	background-color: var(--primary-white-color);
+}
+
+.portfolio-top-text {
+	color: var(--primary-black-color);
+}
+
+.portfolio-list {
+}
+
+.portfolio-item {
+}
+
+/* booking section */
+.booking {
+	background-color: #191c26;
+}
+
+.booking-title {
+	color: var(--primary-white-color);
+}
+
+/* contact section */
+.contacts {
+	background-color: var(--primary-black-color);
+}
+
+.contacts-title {
+	color: var(--primary-white-color);
+}
+
+.contacts-address {
+	font-style: normal;
+}
+
+.contacts-list {
+}
+
+.contacts-item {
+}
+
+.contacts-link {
+	color: var(--primary-gray-color);
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0.36px;
+}
+
+.contacts-bottom-text {
+	color: var(--primary-gray-color);
+}
+
+.contacts-top-text {
+	color: var(--primary-gray-color);
+}
+
+/* footer */
+.footer {
+	background-color: var(--secondary-background-color);
+}
+
+.footer-copyright {
+	color: var(--primary-gray-color);
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 2.2px;
+}
+
+.footer-link {
+	color: var(--primary-black-color);
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 2.2px;
 }
