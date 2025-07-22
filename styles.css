@@ -41,7 +41,6 @@ body {
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 0 auto;
-	border: 2px solid red;
 }
 
 .visually-hidden {
@@ -55,6 +54,11 @@ body {
 	clip-path: inset(100%);
 	clip: rect(0 0 0 0);
 	overflow: hidden;
+}
+
+.section {
+	padding-top: 120px;
+	padding-bottom: 120px;
 }
 
 /* general styles */
